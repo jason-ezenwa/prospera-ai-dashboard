@@ -41,6 +41,7 @@ import {
 } from "recharts";
 import Image from "next/image";
 import ProsperoLogo from "@/assets/prospera_ai_logo.jpeg";
+import Footer from "@/components/ui/footer";
 
 // Enhanced sample data for the redesigned dashboard
 const intentSignalData = [
@@ -972,6 +973,8 @@ export default function ProsperaAIDashboard() {
           </Card>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }
