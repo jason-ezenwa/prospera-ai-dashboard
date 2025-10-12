@@ -23,7 +23,7 @@ export default function Header({
 }: HeaderProps) {
 
   return (
-    <div className="border-b border-border/40 backdrop-blur-xl bg-background/80 sticky top-0 z-50">
+    <div className="border-b border-border/40 backdrop-blur-md bg-background/50 sticky top-0 z-50">
       <div className="p-3 sm:p-4 lg:p-6">
         <div className="flex flex-col space-y-4 lg:flex-row lg:items-center lg:justify-between lg:space-y-0 lg:mb-6">
           {/* Logo and Title Section */}
