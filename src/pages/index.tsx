@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Image from "next/image";
-import ProsperoLogo from "@/assets/prospera_ai_logo.jpeg";
 import Footer from "@/components/ui/footer";
 
 // Dashboard components
