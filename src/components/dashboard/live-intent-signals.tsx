@@ -59,9 +59,7 @@ export default function LiveIntentSignals() {
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-red-500 rounded-full animate-ping"></div>
             <Flame className="w-4 h-4 sm:w-5 sm:h-5 text-orange-500" />
-            <span className="text-sm sm:text-base">
-              Live Intent Signals
-            </span>
+            <span className="text-sm sm:text-base">Live Intent Signals</span>
           </div>
           <Button variant="outline" size="sm">
             <Filter className="w-3 h-3 sm:w-4 sm:h-4" />
@@ -69,7 +67,7 @@ export default function LiveIntentSignals() {
         </CardTitle>
       </CardHeader>
       <CardContent className="p-0">
-        <div className="space-y-1 max-h-80 sm:max-h-96 overflow-y-auto">
+        <div className="space-y-1 sm:max-h-96 overflow-y-auto">
           {liveIntentSignals.map((signal) => (
             <div
               key={signal.id}
@@ -105,9 +103,7 @@ export default function LiveIntentSignals() {
                   {signal.intent}
                 </Badge>
               </div>
-              <p className="text-sm text-foreground mb-2">
-                {signal.action}
-              </p>
+              <p className="text-sm text-foreground mb-2">{signal.action}</p>
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
                 <span className="text-xs text-muted-foreground">
                   {signal.source}

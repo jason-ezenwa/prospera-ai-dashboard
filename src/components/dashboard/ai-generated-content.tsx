@@ -73,7 +73,7 @@ export default function AiGeneratedContent() {
                       ? "secondary"
                       : "outline"
                   }
-                  className="text-xs">
+                  className="text-xs w-fit">
                   {content.status}
                 </Badge>
               </div>
